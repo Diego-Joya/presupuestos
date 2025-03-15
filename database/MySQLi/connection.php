@@ -32,7 +32,7 @@ class connection
         $server = "localhost";
         $database = "finanzas";
         $username = "root";
-        $password = "";
+        $password = '$Aca_Nube123';
 
         // conexion con mysqli solo soport MySQL
         $sql = new \mysqli($server, $username, $password, $database);
