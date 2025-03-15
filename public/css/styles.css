@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://media.istockphoto.com/id/2159126735/es/foto/una-imagen-de-doble-exposici%C3%B3n-de-rascacielos-con-superposici%C3%B3n-de-gr%C3%A1ficos-financieros-sobre.jpg?s=1024x1024&w=is&k=20&c=eKOj_OrISgawBUWkXR0QnunJ7xtWSI-oRkHAA-KMn-M=') no-repeat center center fixed;
+    background-size: cover;
+    color: #a0b7eb;
+}
+
+header {
+    background-color: rgb(8 40 73 / 80%);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 20px;
+    text-align: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1c0e28;
+    background-color: rgb(154 148 203 / 80%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #272e81; 
+}
+
+.content {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(8 40 73 / 80%);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.titulo {
+    color: black;
+}
